@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kanit:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@300&family=Oswald:wght@400;500&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+h1,h2{
+    font-family: 'Dancing Script', cursive;
+}
+ 
+.nav-link{
+    color: black !important;
+    font-size: 1.5rem;
+}
+
+ .carousel-item img{
+    width: 100%;
+    height: 80vh;
+ }
+ .about, .team{
+   background-color: rgb(216, 252, 187);
+ }
+ 
+ .card img{
+    width: 50%;
+    margin: auto;
+ }
+ .card:hover{
+   background-color: rgb(203, 144, 255) !important;
+ }
+ .btn-light:hover{
+   background-color: rgba(45, 45, 255, 0.833) !important;
+   border: none;
+   color: white !important;
+ }
+ .blog-card:hover{
+  background-color: antiquewhite !important;
+ }
+ #blog{
+  width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/b5img/News2.jpg);
+    background-repeat:  no-repeat ;
+    background-size: 100% 100%;
+ }
+
+ body{
+  margin-top:20px;
+  background:#F0F8FF;
+  }
+  .text-custom{
+  color: #0062ff !important;
+  }
+  #servise{
+     
+      width: 100%;
+       
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/b5img/code.jpg)  ;
+      background-repeat:  no-repeat ;
+      background-size: 100% 100%;
+      
+   
+  }
+
+  #blog ul{
+    padding-top: 8px;
+  }
+
+  #servise hr{
+    padding-top: 6px;
+  }
+
+   
+
+
+ /* responsive ipad */
+
+@media( max-width: 650px){
+  nav .logo{
+    font-size: 10px;
+  }
+  .hero img{
+    height: 340px !important;
+  } 
+    
+}
